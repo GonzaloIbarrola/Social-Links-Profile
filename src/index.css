@@ -1,0 +1,13 @@
+@tailwind base;
+
+  @layer base {
+    body {
+      @apply bg-Black flex justify-center h-screen items-center
+    }
+    main {
+      @apply bg-DarkGrey w-[327px] sm:w-auto h-[579px] sm:h-auto rounded-[12px] p-6 sm:p-10
+    }
+  }
+
+@tailwind components;
+@tailwind utilities;
