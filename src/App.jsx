@@ -34,7 +34,7 @@ function App() {
       <section className='flex flex-col items-center mb-6 gap-6'>
         <img src={ProfileImage} alt="Profile image" className='rounded-full w-[88px]' />
         <div>
-          <h1 className='text-White text-2xl font-semibold leading-[150%]'>Jessica Randall</h1>
+          <h1 className='text-White text-2xl sm:mb-1 font-semibold leading-[150%]'>Jessica Randall</h1>
           <h2 className='text-NeonGreen text-sm font-bold leading-[150%]'>London, United Kingdom</h2>
         </div>
         <p className='text-White text-sm leading-[150%]'>"Front-end developer and avid reader."</p>
